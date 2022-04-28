@@ -2,7 +2,7 @@
   "name": "tip-calculator-solution",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tesla-ambassador.github.io/tip-calculator/",
+  "homepage": "https://tesla-ambassador.github.io/tip-calculator",
   "dependencies": {
     "-": "^0.0.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

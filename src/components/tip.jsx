@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Error from './check-error';
+import {BlackDollar, PeopleIcon} from './dollar'
 
 function Tip(props) {
     const [bill, setNewBill] = useState('');
@@ -36,7 +37,7 @@ function Tip(props) {
                 </div>
                 <div className="textfield-container">
                     <div className="icons">
-                        <img src="/images/icon-dollar.svg" alt="dollar sign" />
+                        <BlackDollar />
                     </div>
                     <input value={bill} onChange={setBill} type="text" placeholder='0' className='text-field right' />
                 </div>
@@ -63,7 +64,7 @@ function Tip(props) {
                 </div>
                 <div className="textfield-container">
                     <div className="icons">
-                        <img src="/images/icon-person.svg" alt="person icon" />
+                        <PeopleIcon />
                     </div>
                     <input type="text" onChange={setNewPeople} value={people} placeholder='0' className='text-field right' />
                 </div>
