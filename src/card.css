@@ -1,0 +1,159 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  --Strong-cyan: hsl(172, 67%, 45%);
+  --Very-dark-cyan: hsl(183, 100%, 15%);
+--Dark-grayish-cyan: hsl(186, 14%, 43%);
+--Grayish-cyan: hsl(184, 14%, 56%);
+--Light-grayish-cyan: hsl(185, 41%, 84%);
+--Very-light-grayish-cyan: hsl(189, 41%, 97%);
+--White: hsl(0, 0%, 100%);
+}
+
+body {
+  background: hsl(185, 41%, 84%);
+  font-size: 16px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.main-card {
+  background: #ffffff;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, .5);
+}
+
+.sub-parent {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px;
+}
+
+.dark-grayish {
+  color:hsl(186, 14%, 43%);
+}
+
+.white-text {
+  color:hsl(0, 0%, 100%);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.textfield-container {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid hsl(172, 67%, 45%);
+}
+
+.text-field {
+  width: 100%;
+  position: relative;
+}
+
+.icons {
+  position: absolute;
+  z-index: 5;
+  padding: 5px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  text-align: right;
+  background:hsl(189, 41%, 97%);
+  border: none;
+  outline: hsla(189, 41%, 97%, 0);
+}
+
+.gridItems {
+  display: grid;
+  grid-template-columns: repeat(3, 113px);
+  gap: 10px;
+  grid-auto-rows: minmax(auto, 40px);
+}
+
+.tip-input {
+  padding: 5px;
+}
+
+@media (max-width: 930px) {
+  .main-card {
+    padding: 40px 20px;
+    gap: 10px;
+  }
+
+  .sub-parent {
+    width: 350px;
+    padding: 10px;
+  }
+
+  .gridItems {
+    grid-template-columns: repeat(3, 100px);
+  }
+}
+
+@media (max-width: 750px) {
+  .main-card {
+    flex-direction: column;
+  }
+
+  .sub-parent {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  .gridItems {
+    grid-template-columns: repeat(2, 150px);
+  }
+
+  .sub-parent {
+    padding: 20px;
+    height: auto;
+  }
+}
