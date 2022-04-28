@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tip-calculator/static/css/main.dc0efc9b.css",
-    "main.js": "/tip-calculator/static/js/main.39bf53e0.js",
+    "main.js": "/tip-calculator/static/js/main.dd150a82.js",
     "static/media/logo.svg": "/tip-calculator/static/media/logo.3cc0528bd46321d63d85702006069614.svg",
     "index.html": "/tip-calculator/index.html",
     "main.dc0efc9b.css.map": "/tip-calculator/static/css/main.dc0efc9b.css.map",
-    "main.39bf53e0.js.map": "/tip-calculator/static/js/main.39bf53e0.js.map"
+    "main.dd150a82.js.map": "/tip-calculator/static/js/main.dd150a82.js.map"
   },
   "entrypoints": [
     "static/css/main.dc0efc9b.css",
-    "static/js/main.39bf53e0.js"
+    "static/js/main.dd150a82.js"
   ]
 }
