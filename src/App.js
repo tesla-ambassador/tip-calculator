@@ -64,7 +64,8 @@ function resetValues() {
   return (
     <div className='parent'>
       <Logo />
-      <div className='main-card'>
+      <main className='main-card'>
+      <h1 style={{display: 'none'}}>Tip Calculator</h1>
         <Tip 
           onClick = {computeTip}
           onClickCustom = {computeCustom}
@@ -78,7 +79,7 @@ function resetValues() {
           totalPerPerson = {totalPerPerson}
           reset= {resetValues}
         />
-      </div>
+      </main>
       <Attribution 
         target = 'blank'
       />

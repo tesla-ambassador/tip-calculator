@@ -8,7 +8,7 @@ const Input = ({label, value, onChange, pattern, ...rest}) => {
 
   return (
       <div>
-          <label>{label}</label>
+        <label>{label}</label>
         <input value={value} onChange={handleOnChange} {...rest} />
       </div>
   )

@@ -82,6 +82,7 @@ input {
   padding: 10px;
   font-size: 24px;
   border-radius: 5px;
+  font-family: 'Space Mono', monospace;
 }
 
 input:focus {
