@@ -62,7 +62,7 @@ function resetValues() {
 }
 
   return (
-    <main className='parent'>
+    <div className='parent'>
       <Logo />
       <div className='main-card'>
         <Tip 
@@ -82,7 +82,7 @@ function resetValues() {
       <Attribution 
         target = 'blank'
       />
-    </main>
+    </div>
   );
 }
 
